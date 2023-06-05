@@ -44,7 +44,7 @@ export function useForm(formLength) {
 
       // Aquí es donde envías los datos del formulario a tu función serverless
       try {
-        const response = await axios.post("/api/send-email", formData.value);
+        const response = await axios.post("https://dynamic-vue-form.vercel.app/api/send-email", formData.value);
         console.log(response);
         window.location.href = 'https://www.grouzy.com';
       } catch (error) {
