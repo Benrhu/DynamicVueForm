@@ -37,8 +37,6 @@
       @next="onSubmit"
     />
 
-    <!-- Form Results -->
-    <FormResult :isLastField="formState.isLastField" />
   </form>
 </template>
 
@@ -54,7 +52,6 @@ import FieldGroup from "./FormElements/FieldGroup.vue";
 import FieldError from "./FormElements/FieldError.vue";
 import FieldLabel from "./FormElements/FieldLabel.vue";
 import FormNav from "./FormElements/FormNav.vue";
-import FormResult from "./FormElements/FormResult.vue";
 import { pick } from "../utilities/";
 
 // Expected props from parent

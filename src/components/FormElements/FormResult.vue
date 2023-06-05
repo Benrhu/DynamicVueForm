@@ -1,7 +1,7 @@
 <template>
   <TypeBasedTransition :transition-type="'fadeUpDown'">
     <div v-if="isLastField" class="form-complete">
-      <pre> {{ store.formData }} </pre>
+      <h1></h1>
     </div>
   </TypeBasedTransition>
 </template>

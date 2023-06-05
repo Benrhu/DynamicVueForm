@@ -46,6 +46,7 @@ export function useForm(formLength) {
       try {
         const response = await axios.post("/api/send-email", formData.value);
         console.log(response);
+        window.location.href = 'https://www.grouzy.com';
       } catch (error) {
         console.error(error);
       }
