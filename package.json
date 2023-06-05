@@ -12,6 +12,7 @@
     "@iconify/vue": "^3.2.1",
     "@vuelidate/core": "2.0.0-alpha.41",
     "@vuelidate/validators": "2.0.0-alpha.29",
+    "axios": "^1.4.0",
     "gsap": "^3.10.4",
     "nodemailer": "^6.9.3",
     "pinia": "^2.0.14",
